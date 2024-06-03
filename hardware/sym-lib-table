@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "RPGA Feather-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/RPGA Feather-eagle-import.kicad_sym")(options "")(descr ""))
+)

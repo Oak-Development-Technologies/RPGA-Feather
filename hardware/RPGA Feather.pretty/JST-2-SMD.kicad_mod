@@ -1,0 +1,191 @@
+(footprint "JST-2-SMD"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "JST-Right Angle Male Header SMT\n\nSpecifications:\n\n• Pin count: 2\n• Pin pitch: 2mm\n\nDatasheet referenced for footprint\n\nExample device(s):\n\n• CONN_02\n• JST_2MM_MALE")
+	(property "Reference" "REF**"
+		(at -1.397 -1.778 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6120a5f6-092e-4660-8b98-00e04bc75121")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "JST-2-SMD"
+		(at -1.651 -0.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8637f5db-c96d-450e-8bf4-0fa4b7ebe053")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ef603497-2e28-41ce-b3c7-fc7f4dcdd961")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e6c33a8-9006-4173-a032-8efff743a53b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29238bb0-7933-4cf0-8978-d9e8f1c3c683")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_line
+		(start -4 1)
+		(end -4 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d9c0f6d-fd11-4c8a-9b06-1eaa5c680f4c")
+	)
+	(fp_line
+		(start -4 4.5)
+		(end -3.2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "04bab4a2-b30c-440f-a1e8-41e363613ace")
+	)
+	(fp_line
+		(start -3.2 2)
+		(end -2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c501c040-e38d-47f8-a8da-9c5f25d7cbcb")
+	)
+	(fp_line
+		(start -3.2 4.5)
+		(end -3.2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94d2e3f5-e34b-4510-af8b-7d8eb6df5711")
+	)
+	(fp_line
+		(start 2 -3)
+		(end -2 -3)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7b03f84-e74c-48de-82b8-b844e08f2e5a")
+	)
+	(fp_line
+		(start 2 2)
+		(end 3.2 2)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6144ab47-ce6c-46fc-a644-a37323474171")
+	)
+	(fp_line
+		(start 3.2 2)
+		(end 3.2 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84b49d26-c66c-4c8b-81ff-8895a27086ad")
+	)
+	(fp_line
+		(start 3.2 4.5)
+		(end 4 4.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "69bed95f-03d2-4a66-b23f-6f11ade070f7")
+	)
+	(fp_line
+		(start 4 4.5)
+		(end 4 1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "42d2dec9-1348-4132-918d-d1d97b06d0d5")
+	)
+	(pad "1" smd rect
+		(at -1 3.7)
+		(size 1 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "cd9b54e5-2061-4c0e-9018-37ed42ff6db5")
+	)
+	(pad "2" smd rect
+		(at 1 3.7)
+		(size 1 4.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "826a95e5-a4e0-4205-befa-f357ba0308fe")
+	)
+	(pad "NC1" smd rect
+		(at -3.4 -1.5 90)
+		(size 3.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "07fa5ad4-72cf-452f-9004-11c0e37279f8")
+	)
+	(pad "NC2" smd rect
+		(at 3.4 -1.5 90)
+		(size 3.4 1.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "df99e4d4-aa24-4659-9693-6b997c82a80b")
+	)
+)

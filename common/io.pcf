@@ -1,0 +1,17 @@
+set_io clk 2
+set_io pico16 2
+set_io pico17 3
+set_io pico18 4
+set_io pico19 6
+
+set_io pico20 48
+set_io pico6 47
+set_io pico11 46
+set_io pico10 45
+
+set_io edge[1] 13
+set_io edge[0] 20
+
+set_io RGB[2] 41
+set_io RGB[1] 40
+set_io RGB[0] 39
