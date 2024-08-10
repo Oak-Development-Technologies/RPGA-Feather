@@ -16,6 +16,8 @@ Having a good pinout guide can be useful for getting started. We provide this pi
 
 <image src="/images/RPGA%20Feather%20rev%20b.jpg">
 
+You can find the PDF under the [Hardware Directory Here](/hardware/RPGA.pdf). Thanks to [@skliffmueller](https://github.com/skliffmueller) for making and sharing it.
+
 ### usage examples
 
 We provide a few examples in this repository for getting familiar with interfacing with the iCE5LP4K FPGA.
